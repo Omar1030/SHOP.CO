@@ -39,7 +39,7 @@ export default function Navbar() {
       </article>
 
       <article id="navbar-nav" className="bg-(--white) py-3 ">
-        <div className="container mx-auto px-4 md:px-0 flex justify-between ">
+        <div className="container mx-auto px-4  flex justify-between ">
           <div id="navbar-nav-left" className="flex items-center gap-3 text-(--main-black) cursor-pointer">
             <div id="bars-icon" className="flex items-center justify-center lg:hidden border-2 rounded-sm p-1 " onClick={() => setMenuMobile(true)}>
               <i className="fa-solid fa-bars text-[22px] md:text-[25px]"></i>

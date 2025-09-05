@@ -1,4 +1,4 @@
-import { imgs } from "../assets/imgs/imgs";
+import { imgs } from "./assets/imgs/imgs";
 
 export default function Hero() {
   // Brand Logos
@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section id="hero" className="bg-(--main-gray)">
       <div id="hero-main">
-        <div className="container mx-auto px-4 md:px-0 pt-[40px]">
+        <div className="container mx-auto px-4  pt-[40px]">
           <article id="hero-main-info">
             <h1 id="hero-head" className="w-[300px] md:w-[350px] lg:w-[480px] font-black text-[36px]/8 md:text-[40px]/10 lg:text-[36px]/14 text-(--main-black) text-medium lg:text-[60px] mb-4">
               FIND CLOTHES THAT MATCHES YOUR STYLE{" "}
