@@ -1,8 +1,8 @@
 export default function ProductCard(props) {
   return (
     <article className="product-card">
-      <figure className="card-img">
-        <img src={props.src} alt="product-img" loading="lazy" className="rounded-md aspect-square object-cover h-[250px]" />
+      <figure className="card-img overflow-hidden">
+        <img src={props.src} alt="product-img" loading="lazy" className="rounded-xl aspect-square object-fill w-full h-full hover:scale-[1.1] duration-300 cursor-pointer" />
       </figure>
       <p className="card-title font-semibold ms-2 mt-2">{props.title}</p>
       <ul className="flex">

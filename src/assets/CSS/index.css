@@ -1,20 +1,28 @@
 @import "tailwindcss";
 
-/* ===== Start Variables ===== */
+/* * ===== Start Variables ===== * */
 :root {
+  /* ! Font */
   --font-family: "Inter", sans-serif;
 
+  /* ! Colors */
   --main-black: rgba(0, 0, 0, 1);
   --main-white: white;
   --main-gray: rgba(242, 240, 241, 1);
   --text-gray: rgba(0, 0, 0, 0.6);
 
+  /* ! Radius */
   --btn-radius: 62px;
 }
-/* ===== End Variables ===== */
+/* * ===== End Variables ===== * */
 
+/* * ===== End Variables ===== * */
+html {
+  scroll-behavior: smooth;
+}
+/* * ===== End Variables ===== * */
 
-/* ===== Start Hero ===== */
+/* * ===== Start Hero ===== * */
 @media (min-width: 768px) {
   #hero-main {
     background-image: url(../imgs/hero.avif);
@@ -28,4 +36,4 @@
     background-position: right;
   }
 }
-/* ===== Start Hero ===== */
+/* * ===== Start Hero ===== * */

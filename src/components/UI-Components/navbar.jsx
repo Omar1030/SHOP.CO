@@ -16,10 +16,10 @@ export default function Navbar() {
             <a href="#">Shops</a>
           </li>
           <li className="mb-3 text-xl font-bold">
-            <a href="#">On Sale</a>
+            <a href="#new-arrivals">New Arrivals</a>
           </li>
           <li className="mb-3 text-xl font-bold">
-            <a href="">New Arrivals</a>
+            <a href="#top-selling">Top Selling</a>
           </li>
           <li className="mb-3 text-xl font-bold">
             <a href="">Brands</a>
@@ -77,9 +77,9 @@ export default function Navbar() {
                   </el-menu>
                 </el-dropdown>
               </li>
-              <li>On sale</li>
-              <li>New Arrivals</li>
-              <li>Brands</li>
+              <li><a href="#new-arrivals">New Arrivals</a></li>
+              <li><a href="#top-selling">Top Selling</a></li>
+              <li><a href="#brands">Brands</a></li>
             </ul>
             <input type="search" placeholder="search for products..." className="xl:min-w-[450px] rounded-full bg-(--main-gray) outline-0 px-5 py-2" />
           </div>

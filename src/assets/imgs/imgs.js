@@ -18,5 +18,9 @@ import Sixteen from "./16.png";
 import Seventeen from "./17.png";
 import Eighteen from "./18.png";
 import Nineteen from "./19.png";
+import Twenty from './20.png';
+import TwentyOne from './21.png';
+import TwentyTwo from './22.png';
+import TwentyThree from './23.png';
 
-export let imgs = { Gucci, Zara, Prada, Ver, Calvin, Hero, HeroMobile, Eight, Nine, Ten, Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen };
+export let imgs = { Gucci, Zara, Prada, Ver, Calvin, Hero, HeroMobile, Eight, Nine, Ten, Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty, TwentyOne, TwentyTwo, TwentyThree };
