@@ -8,7 +8,7 @@ export default function Footer() {
           <p className="font-extrabold text-4xl lg:w-[440px] xl:w-[500px]">STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
           <article>
             <div className="relative">
-              <i class="fa-solid fa-envelope absolute left-[18px] top-[28px] text-(--text-gray)"></i>
+              <i className="fa-solid fa-envelope absolute left-[18px] top-[28px] text-(--text-gray)"></i>
               <input type="email" placeholder="Enter your email" className="outline-[0] bg-white text-(--text-gray) placeholder:text-(--text-gray) w-full ps-[40px] py-3 rounded-3xl my-3" />
             </div>
             <input type="button" value="Subscribe to Newsletter" className="w-full bg-white text-black font-bold px-4 py-3 rounded-3xl" />
@@ -24,22 +24,22 @@ export default function Footer() {
             <ul id="social-links" className="flex gap-3 mt-5 mb-6">
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
                 <a href="">
-                  <i class="fa-brands fa-x-twitter"></i>
+                  <i className="fa-brands fa-x-twitter"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
                 <a href="">
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
                 <a href="">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
                 <a href="">
-                  <i class="fa-brands fa-pinterest"></i>
+                  <i className="fa-brands fa-pinterest"></i>
                 </a>
               </li>
             </ul>

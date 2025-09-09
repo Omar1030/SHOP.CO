@@ -5,6 +5,7 @@ import TopSelling from "./top-selling";
 import BrowseByStyle from "./browse-by-style";
 import Feedback from "./feedback.jsx";
 import Footer from "./components/UI-Components/footer.jsx";
+import ScrollUpBtn from "./components/UI-Components/scroll-up-btn.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BrowseByStyle />
       <Feedback />
       <Footer />
+      <ScrollUpBtn />
     </>
   );
 }
