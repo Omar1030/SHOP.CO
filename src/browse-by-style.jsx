@@ -4,7 +4,7 @@ export default function BrowseByStyle() {
   return (
     <section id="browse-style" className="mx-[10px] lg:mx-[10px]">
       <div className="container mx-auto px-4 lg:px-[50px] xl:px-[100px] py-[70px] bg-[#eee] rounded-[15px] md:rounded-[30px]">
-        <h1 className="font-extrabold text-[2.5rem] leading-[40px] tracking-tight text-center mb-[45px]">BROWSE BY DRESS STYLEE</h1>
+        <h2 className="font-extrabold text-[2.5rem] leading-[40px] tracking-tight text-center mb-[45px]">BROWSE BY DRESS STYLEE</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="col-span-1 relative cursor-pointer overflow-hidden">
             <p className="absolute top-[20px] left-[30px] text-[29px] xl:text-[35px] font-semibold z-2">Casual</p>

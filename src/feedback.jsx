@@ -10,7 +10,7 @@ export default function Feedback() {
   return (
     <section id="feedback-section">
       <div className="container mx-auto px-4 py-[70px]">
-        <h1 className="font-extrabold text-[1.7rem] md:text-[2rem] leading-[40px] tracking-tight mb-4">OUR HAPPY CUSTOMERS</h1>
+        <h2 className="font-extrabold text-[1.7rem] md:text-[2rem] leading-[40px] tracking-tight mb-4">OUR HAPPY CUSTOMERS</h2>
         <Swiper
           autoplay={{
             delay: 2500,

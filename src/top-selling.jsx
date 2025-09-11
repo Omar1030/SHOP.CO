@@ -6,7 +6,7 @@ export default function TopSelling() {
   return (
     <section id="top-selling">
       <div className="container mx-auto px-4 py-[70px]">
-        <h1 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">TOP SELLING</h1>
+        <h2 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">TOP SELLING</h2>
         <div id="products" className="grid grid-cols-[auto_auto] md:grid-cols-4 lg:grid-cols-4 gap-3">
           <ProductCard src={Nineteen} title={"VERTICAL STRIPED SHIRT"} price={"$212"} />
           <ProductCard src={Eight} title={"COURAGE GRAPHIC T-SHIRT"} price={"$145"} />

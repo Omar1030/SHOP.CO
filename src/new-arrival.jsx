@@ -6,7 +6,7 @@ export default function NewArrival() {
   return (
     <section id="new-arrivals">
       <div className="container mx-auto px-4 py-[70px] border-b-1 border-gray-300">
-        <h1 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">NEW ARRIVALS</h1>
+        <h2 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">NEW ARRIVALS</h2>
         <div id="products" className="grid grid-cols-[auto_auto] md:grid-cols-4 gap-3 justify-center">
           <ProductCard src={Eighteen} title={"T-SHIRT WITH TAPE DETAILS"} price={"$120$"} />
           <ProductCard src={Nine} title={"SKINNY FIT JEANS"} price={"$240"} />

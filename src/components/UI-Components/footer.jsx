@@ -23,22 +23,22 @@ export default function Footer() {
             <p className="text-(--text-gray) max-w-[450px] lg:max-w-[225px]">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
             <ul id="social-links" className="flex gap-3 mt-5 mb-6">
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
-                <a href="">
+                <a href="" aria-label="Visit our Twitter page">
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
-                <a href="">
+                <a href="" aria-label="Visit our Facebook page">
                   <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
-                <a href="">
+                <a href="" aria-label="Visit our Instagram page">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li className="flex justify-center items-center w-[30px] h-[30px] rounded-full bg-white duration-300 hover:bg-black hover:text-white cursor-pointer">
-                <a href="">
+                <a href="" aria-label="Visit our Pinterest page">
                   <i className="fa-brands fa-pinterest"></i>
                 </a>
               </li>
