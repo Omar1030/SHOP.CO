@@ -1,23 +1,23 @@
-import Navbar from "./components/UI-Components/navbar";
-import Hero from "./hero";
-import NewArrival from "./new-arrival";
-import TopSelling from "./top-selling";
-import BrowseByStyle from "./browse-by-style";
-import Feedback from "./feedback.jsx";
-import Footer from "./components/UI-Components/footer.jsx";
-import ScrollUpBtn from "./components/UI-Components/scroll-up-btn.jsx";
+import { Routes, Route } from "react-router";
+
+import Landing from "./Pages/Landing.jsx";
+import ProductDetail from "./Pages/ProductDetail.jsx";
+import Shop from "./Pages/Shop.jsx";
+import Error from "./Pages/Error.jsx";
+import Cart from "./Pages/Cart.jsx";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <NewArrival />
-      <TopSelling />
-      <BrowseByStyle />
-      <Feedback />
-      <Footer />
-      <ScrollUpBtn />
+      {/* <Navbar /> */}
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/product-detail" element={<ProductDetail />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+      {/* <Footer /> */}
     </>
   );
 }
