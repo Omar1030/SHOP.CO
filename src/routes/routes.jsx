@@ -1,8 +1,8 @@
-import Landing from "../Pages/Landing";
-import ProductDetail from "../Pages/ProductDetail";
-import Shop from "../Pages/Shop";
-import Cart from "../Pages/Cart";
-import Error from "../Pages/Error";
+import Landing from "../pages/landing/Landing";
+import ProductDetail from "../pages/ProductDetail";
+import Shop from "../pages/Shop";
+import Cart from "../pages/Cart";
+import Error from "../pages/Error";
 
 const routes = [
   {

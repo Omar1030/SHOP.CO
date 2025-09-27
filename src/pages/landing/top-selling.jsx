@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 import { imgs } from "../../assets/imgs/imgs";
-import ProductCard from "../UI/product-card";
+import ProductCard from "../../components/UI/product-card";
 
 export default function TopSelling() {
   let { Nineteen, Eight, Ten, Twelve } = imgs;

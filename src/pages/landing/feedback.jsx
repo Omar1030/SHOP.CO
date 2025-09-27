@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Autoplay } from "swiper/modules";
-import FeedbackCard from "../UI/feedback-card";
+import FeedbackCard from "../../components/UI/feedback-card";
 
 import "../../CSS/feeback.css";
 import "swiper/css";

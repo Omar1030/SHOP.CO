@@ -1,4 +1,4 @@
-import { imgs } from "../../assets/imgs/imgs";
+import { imgs } from "../assets/imgs/imgs";
 
 export default function Footer() {
   return (
