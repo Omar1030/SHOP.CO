@@ -1,15 +1,15 @@
 import { useState } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 import { Link } from "react-router";
 export default function Navbar() {
   let [menuMobile, setMenuMobile] = useState(false);
   let [topNav, setTopNav] = useState(true);
 
-  // ! Block Scroll on Mobile Menu
-  useEffect(() => {
-    document.body.classList.toggle("overflow-hidden");
-  }, [menuMobile]);
+  // // ! Block Scroll on Mobile Menu
+  // useEffect(() => {
+  //   document.body.classList.toggle("overflow-hidden");
+  // }, [menuMobile]);
 
   return (
     <nav id="navbar">
