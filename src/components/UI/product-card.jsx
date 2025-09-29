@@ -3,8 +3,8 @@ export default function ProductCard(props) {
   return (
     <article className="product-card">
       <Link to="/product-detail">
-        <figure className="card-img overflow-hidden">
-          <img src={props.src} alt="product-img" loading="lazy" className="rounded-xl aspect-square object-fill w-full h-full hover:scale-[1.1] duration-300 cursor-pointer" />
+        <figure className="card-img rounded-xl overflow-hidden">
+          <img src={props.src} alt="product-img" loading="lazy" className="bg-gray-100  aspect-square object-fill w-full h-full hover:scale-[1.1] duration-300 cursor-pointer" />
         </figure>
       </Link>
       <p className="card-title font-semibold ms-2 mt-2">{props.title}</p>
