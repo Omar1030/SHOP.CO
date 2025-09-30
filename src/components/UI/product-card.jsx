@@ -2,7 +2,7 @@ import { Link } from "react-router";
 export default function ProductCard(props) {
   return (
     <article className="product-card">
-      <Link to="/product-detail">
+      <Link to={`/product-detail/${props.id}`}>
         <figure className="card-img rounded-xl overflow-hidden">
           <img src={props.src} alt="product-img" loading="lazy" className="bg-gray-100  aspect-square object-fill w-full h-full hover:scale-[1.1] duration-300 cursor-pointer" />
         </figure>

@@ -61,9 +61,11 @@ export default function Navbar() {
               <div id="bars-icon" className="flex items-center justify-center lg:hidden border-2 rounded-sm p-1 " onClick={() => setMenuMobile(true)}>
                 <i className="fa-solid fa-bars text-[22px] md:text-[25px]"></i>
               </div>
-              <div id="logo" className="font-extrabold text-[25px] md:text-[32px]">
-                SHOP.CO
-              </div>
+              <Link to={"/"}>
+                <div id="logo" className="font-extrabold text-[25px] md:text-[32px]">
+                  SHOP.CO
+                </div>
+              </Link>
             </div>
             <div id="navbar-nav-center" className="hidden lg:flex items-center justify-center gap-5">
               <ul id="navbar-nav-items" className="flex items-center gap-4 text-(--main-black) cursor-pointer">

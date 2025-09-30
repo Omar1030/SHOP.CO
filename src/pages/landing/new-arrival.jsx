@@ -13,7 +13,7 @@ export default function NewArrival() {
         <h2 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">NEW ARRIVALS</h2>
         <div id="products" className="grid grid-cols-[auto_auto] md:grid-cols-4 gap-3 justify-center">
           {menShirts.slice(0, 4).map((shirt) => (
-            <ProductCard key={shirt.id} src={shirt["thumbnail"]} title={shirt["title"]} price={shirt["price"]} />
+            <ProductCard key={shirt.id} src={shirt["thumbnail"]} title={shirt["title"]} price={shirt["price"]} id={shirt.id}/>
           ))}
         </div>
         <Link to="/shop">

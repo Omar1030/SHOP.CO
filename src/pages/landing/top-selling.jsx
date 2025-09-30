@@ -18,7 +18,7 @@ export default function TopSelling() {
         <h2 className="font-extrabold text-[2.5rem] tracking-tighter text-center mb-[45px]">TOP SELLING</h2>
         <div id="products" className="grid grid-cols-[auto_auto] md:grid-cols-4 lg:grid-cols-4 gap-3">
           {products.map((product) => (
-            <ProductCard key={product.id} src={product["thumbnail"]} title={product["title"]} price={product["price"]} />
+            <ProductCard key={product.id} src={product["thumbnail"]} title={product["title"]} price={product["price"]} id={product.id}/>
           ))}
         </div>
         <Link to="/shop">
