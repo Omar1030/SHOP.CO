@@ -1,10 +1,7 @@
-import { Routes, Route } from "react-router";
-import routes from "./routes/routes.jsx";
 import axios from "axios";
-
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-
+import Router from "./routes/routes.jsx";
 import { setMenShirts, setMenShoes, setMenWatches } from "./features/men-products-slice.jsx";
 import { setWomenDresses, setWomenShoes, setWomenWatches, setWomenBags, setWomenJewellery } from "./features/women-products-slice.jsx";
 
@@ -41,13 +38,7 @@ function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
-      <Routes>
-        {routes.map((route, index) => {
-          return <Route key={index} path={route.path} element={route.element} />;
-        })}
-      </Routes>
-      {/* <Footer /> */}
+      <Router />
     </>
   );
 }

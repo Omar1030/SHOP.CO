@@ -1,30 +1,32 @@
-import Landing from "../pages/landing/Landing";
-import ProductDetail from "../pages/ProductDetail";
-import Shop from "../pages/Shop";
-import Cart from "../pages/Cart";
-import Error from "../pages/Error";
+import Navbar from "../layout/navbar";
+import Footer from "../layout/footer";
 
-const routes = [
-  {
-    path: "/",
-    element: <Landing />,
-  },
-  {
-    path: "/product-detail",
-    element: <ProductDetail />,
-  },
-  {
-    path: "/shop",
-    element: <Shop />,
-  },
-  {
-    path: "/cart",
-    element: <Cart />,
-  },
-  {
-    path: "*",
-    element: <Error />,
-  },
-];
+import { Routes, Route } from "react-router";
+import { lazy, Suspense } from "react";
+import Loader from "../components/UI/loader";
 
-export default routes;
+const Landing = lazy(() => import("../pages/landing/Landing"));
+const ProductDetail = lazy(() => import("../pages/ProductDetail"));
+const Shop = lazy(() => import("../pages/Shop"));
+const Cart = lazy(() => import("../pages/Cart"));
+const Error = lazy(() => import("../pages/Error"));
+
+const Router = () => {
+  return (
+    <Suspense fallback={<Loader />}>
+      <Routes>
+        <Route element={<Navbar />}>
+          <Route element={<Footer />}>
+            <Route path="/" element={<Landing />} />
+            <Route path="/product-detail" element={<ProductDetail />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/cart" element={<Cart />} />
+          </Route>
+        </Route>
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </Suspense>
+  );
+};
+
+export default Router;
