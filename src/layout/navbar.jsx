@@ -1,8 +1,8 @@
 import { useState } from "react";
 // import { useEffect } from "react";
 
-import { Link } from "react-router";
-import { Outlet } from "react-router";
+import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 export default function Navbar() {
   let [menuMobile, setMenuMobile] = useState(false);
   let [topNav, setTopNav] = useState(true);

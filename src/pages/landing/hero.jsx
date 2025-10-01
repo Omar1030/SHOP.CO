@@ -1,5 +1,5 @@
 import { imgs } from "../../assets/imgs/imgs";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 export default function Hero() {
   // Brand Logos
   let brands = [imgs["Gucci"], imgs["Ver"], imgs["Prada"], imgs["Zara"], imgs["Calvin"]];

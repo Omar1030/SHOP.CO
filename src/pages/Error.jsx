@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 const Error = () => {
   return (
     <main className="grid h-screen place-items-center bg-(--main-gray) px-6 py-24 sm:py-32 lg:px-8">

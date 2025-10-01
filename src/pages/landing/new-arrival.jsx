@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import ProductCard from "../../components/UI/product-card";
 
