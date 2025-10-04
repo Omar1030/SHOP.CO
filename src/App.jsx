@@ -2,37 +2,36 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Router from "./routes/routes.jsx";
-import { setMenShirts, setMenShoes, setMenWatches } from "./features/men-products-slice.jsx";
-import { setWomenDresses, setWomenShoes, setWomenWatches, setWomenBags, setWomenJewellery } from "./features/women-products-slice.jsx";
+import { setProducts } from "./features/products-slice.jsx";
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     axios.get("https://dummyjson.com/products/category/mens-shirts").then((data) => {
-      dispatch(setMenShirts(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/mens-shoes").then((data) => {
-      dispatch(setMenShoes(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/mens-watches").then((data) => {
-      dispatch(setMenWatches(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
 
     axios.get("https://dummyjson.com/products/category/womens-dresses").then((data) => {
-      dispatch(setWomenDresses(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/womens-shoes").then((data) => {
-      dispatch(setWomenShoes(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/womens-watches").then((data) => {
-      dispatch(setWomenWatches(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/womens-bags").then((data) => {
-      dispatch(setWomenBags(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
     axios.get("https://dummyjson.com/products/category/womens-jewellery").then((data) => {
-      dispatch(setWomenJewellery(data.data.products));
+      dispatch(setProducts(data.data.products));
     });
   }, [dispatch]);
 

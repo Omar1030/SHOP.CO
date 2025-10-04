@@ -16,9 +16,13 @@
 }
 /* * ===== End Variables ===== * */
 
-/* * ===== End Variables ===== * */
+/* * ===== Start Variables ===== * */
 html {
   scroll-behavior: smooth;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 /* * ===== End Variables ===== * */
 

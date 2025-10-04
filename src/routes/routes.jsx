@@ -15,13 +15,13 @@ const Router = () => {
     <Suspense fallback={<div>Loading</div>}>
       <Routes>
         <Route element={<Navbar />}>
-          {/* <Route element={<Footer />}> */}
+          <Route element={<Footer />}>
           <Route path="/" element={<Landing />} />
           <Route path="/product-detail/:id" element={<ProductDetail />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
         </Route>
-        {/* </Route> */}
+        </Route>
         <Route path="*" element={<Error />} />
       </Routes>
     </Suspense>
