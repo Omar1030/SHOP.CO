@@ -18,7 +18,7 @@ export const productsSlice = createSlice({
   name: "products",
   initialState: {
     products: [],
-    isLoading: false,
+    isLoading: true,
   },
   reducers: {},
 
@@ -32,7 +32,7 @@ export const productsSlice = createSlice({
         state.products = action.payload;
       })
       .addCase(fetchProducts.rejected, (state) => {
-        state.isLoading = false;
+        state.isLoading = true;
       });
   },
 });
