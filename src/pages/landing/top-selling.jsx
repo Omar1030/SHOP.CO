@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import ProductCard from "../../components/UI/product-card";
 
-import SkeletonCard from "../../components/skeleton-card";
+import SkeletonCard from "../../components/UI/skeleton-card";
 
 export default function TopSelling() {
   const products = useSelector((state) => state.products.products);

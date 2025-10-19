@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
 
-import { imgs } from "../assets/imgs/imgs";
+// import { imgs } from "../assets/imgs/imgs";
 
 export default function Footer() {
   return (
     <>
       <Outlet />
       {/* <footer id="footer" className="bg-(--main-gray) mt-[200px] sm:mt-[175px] md:mt-[80px] lg:mt-[100px]"> */}
-      <footer id="footer" className="bg-(--main-gray)">
+      {/* <footer id="footer" className="bg-(--main-gray)">
         <div className="container mx-auto relative px-4 pt-[70px] pb-[35px]">
           <article id="contact" className="absolute top-[-225px] sm:top-[-200px] md:top-[-105px] lg:top-[-120px] left-0 right-0 flex flex-col md:flex-row md:justify-between md:items-center bg-(--main-black) text-white mx-4 rounded-2xl p-4">
             <p className="font-extrabold text-4xl lg:w-[440px] xl:w-[500px]">STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
@@ -108,7 +108,7 @@ export default function Footer() {
             </ul>
           </article>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }
