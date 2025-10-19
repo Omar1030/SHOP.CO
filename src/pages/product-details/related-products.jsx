@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
 import ProductCard from "../../components/UI/product-card";
-import SkeletonCard from "../../components/skeleton-card";
+import SkeletonCard from "../../components/UI/skeleton-card";
 
 export default function RelatedProducts() {
   const { id } = useParams();
